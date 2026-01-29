@@ -78,6 +78,17 @@ function ComingSoon() {
         </div>
         <p className="footer-text">© 2026 Chai Culture. All rights reserved.</p>
       </footer>
+
+
+      <div class="floating-elements">
+  <div class="float float1"></div>
+  <div class="float float2"></div>
+  <div class="float float3"></div>
+  <div class="float float4"></div>
+  <div class="float float5"></div>
+  
+</div>
+
     </main>
   );
 }

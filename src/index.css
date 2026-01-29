@@ -22,6 +22,9 @@ body {
 }
 
 
+
+
+
 .floating-elements {
   position: absolute;
   top: 0; left: 0;
@@ -30,17 +33,35 @@ body {
   z-index: 0;
 }
 
-.float {
+
+
+
+
+
+
+ .float {
   position: absolute;
   width: 20px; height: 20px;
-  background-color: rgba(204, 176, 17, 0.3);
+  background-color: rgba(202, 192, 173, 0.3);
   border-radius: 50%;
   animation: floatUp 12s linear infinite;
-}
+} 
 
 .float1 { left: 10%; animation-duration: 12s; }
 .float2 { left: 50%; width: 15px; height: 15px; animation-duration: 15s; }
 .float3 { left: 80%; width: 25px; height: 25px; animation-duration: 18s; }
+.float4{
+  left:60%; width:35px; height:35px;
+  animation-duration:21s;
+}
+.float5{
+  left:30%; width:45px; height:45px;
+  animation-duration:24s;
+}
+.float6{
+  left:10%; width:55px; height:55px;
+  animation-duration:27s;
+}
 
 @keyframes floatUp {
   0% { transform: translateY(100vh) scale(1); opacity: 0; }
@@ -75,7 +96,7 @@ body {
   line-height: 1.6;
   max-width: 600px;
   margin-bottom:0;
-  color: #4b2e2e;
+  color: #2B160E;
 }
 
 .launching-soon {
